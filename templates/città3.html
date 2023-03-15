@@ -1,34 +1,31 @@
 <html>
-    <!DOCTYPE html>
+    <link rel="stylesheet" href="css/style.css">
     <head>
-     <title>Bellezze d'Italia</title>
+   
     </head>
-    <body>
-    
-     <h1>Bellezze d'Italia</h1>
+
+    <body> 
+        <p class = "testo"><a href = "/descrizioni" >Bellezze d'Italia</a></p>
+        <h1>Bellezze d'Italia</h1>
     
      <div style="display: flex; flex-wrap: wrap;">
       <div style="flex: 1 1 50%;">
-       <img src="{{url_for('static', filename='images/duomodiModena.jpg')}}" align="middle" width="50%"/>
-       <link href = "https://it.wikipedia.org/wiki/Modena">
-       <p>Modena</p>
+       <img src="{{url_for('static', filename='images/duomodiModena.jpg')}}" align="middle" width="50%"/></a>
+       <p class = "testo"><a href = "/descrizione">Modena</a></p>
       </div>
       <div style="flex: 1 1 50%;">
        <img src="{{url_for('static', filename='images/duomodiTorino.jpg')}}" align="middle" width="50%"/>
-       <link href = "https://it.wikipedia.org/wiki/Torino">
-       <p>Torino</p>
+       <p class = "testo"><a href = "/descrizione">Torino</a></p>
       </div>
       <div style="flex: 1 1 50%;">
        <img src="{{url_for('static', filename='images/duomodiFirenze.jpg')}}" align="middle" width="50%"/>
-       <link href = "https://it.wikipedia.org/wiki/Firenze">
-       <p>Firenze</p>
+       <p class = "testo"><a href = "/descrizione">Firenze</a></p>
       </div>
       <div style="flex: 1 1 50%;">
        <img src="{{url_for('static', filename='images/milano.jpg')}}" align="middle" width="50%"/>
-       <link href = "https://it.wikipedia.org/wiki/Milano">
-       <p>Milano</p>
+       <p class = "testo"><a href = "/descrizione">Milano</a></p>
       </div>
      </div>
-    
+  
     </body>
 </html>
